@@ -1,0 +1,14 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: example-swagger
+
+swagger:
+  title: ${spring.application.name}
+  description: ${spring.application.name}
+  version: 1.0
+  contact-name: liu
+  contact-url: https://www.liu.com/
+  contact-email: liu@gmail.com
