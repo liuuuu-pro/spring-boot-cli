@@ -18,6 +18,7 @@
         <module>example-async-tool</module>
         <module>example-redis</module>
         <module>example-swagger</module>
+        <module>example-job</module>
     </modules>
 
 </project>

@@ -1,0 +1,22 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: example-job
+
+logging:
+  config: classpath:logback.xml
+
+xxl:
+  job:
+    executor:
+      admin-addresses: http://127.0.0.1:9000/xxl-job-admin
+      access-token:
+      app-name: example-xxl-job-executor
+      address:
+      ip:
+      port: 9999
+      log-retention-days: 30
+      log-path: /data/logs/job
+
