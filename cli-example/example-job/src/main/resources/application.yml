@@ -12,11 +12,11 @@ xxl:
   job:
     executor:
       admin-addresses: http://127.0.0.1:9000/xxl-job-admin
-      access-token:
       app-name: example-xxl-job-executor
+      log-retention-days: -1
+      access-token:
       address:
       ip:
       port: 9999
-      log-retention-days: 30
-      log-path: /data/logs/job
+      log-path:
 
