@@ -6,21 +6,13 @@
 
     <parent>
         <groupId>com.liu</groupId>
-        <artifactId>cli</artifactId>
+        <artifactId>cli-example</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cli-example</artifactId>
+    <artifactId>example-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>example-async-tool</module>
-        <module>example-redis</module>
-        <module>example-swagger</module>
-        <module>example-job</module>
-        <module>example-logstash</module>
-        <module>example-java</module>
-    </modules>
+
 
 </project>

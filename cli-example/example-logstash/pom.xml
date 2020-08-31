@@ -6,21 +6,19 @@
 
     <parent>
         <groupId>com.liu</groupId>
-        <artifactId>cli</artifactId>
+        <artifactId>cli-example</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cli-example</artifactId>
+    <artifactId>example-logstash</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>example-async-tool</module>
-        <module>example-redis</module>
-        <module>example-swagger</module>
-        <module>example-job</module>
-        <module>example-logstash</module>
-        <module>example-java</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>6.4</version>
+        </dependency>
+    </dependencies>
 
 </project>
