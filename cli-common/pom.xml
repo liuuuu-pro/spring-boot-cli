@@ -23,6 +23,8 @@
         <module>common-redis</module>
         <module>common-swagger</module>
         <module>common-job</module>
+        <module>common-log</module>
+        <module>common-lookout</module>
     </modules>
 
 </project>
