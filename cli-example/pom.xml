@@ -22,6 +22,7 @@
         <module>example-logstash</module>
         <module>example-java</module>
         <module>example-log</module>
+        <module>example-skywalking</module>
     </modules>
 
     <dependencies>

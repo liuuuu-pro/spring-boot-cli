@@ -1,0 +1,24 @@
+2020-09-02 11:31:42,309 INFO raft peers changed: [Member{ip='192.168.99.1', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-09-02 11:31:42,338 INFO initializing Raft sub-system
+
+2020-09-02 11:31:42,340 INFO raft notifier started
+
+2020-09-02 11:31:42,342 INFO finish loading all datums, size: 0 cost 3 ms.
+
+2020-09-02 11:31:42,346 INFO cache loaded, datum count: 0, current term: 0
+
+2020-09-02 11:31:42,347 INFO finish to load data from disk, cost: 8 ms.
+
+2020-09-02 11:31:42,350 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-09-02 11:31:43,270 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-09-02 11:31:43,298 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-09-02 11:31:53,908 INFO leader timeout, start voting,leader: {"ip":"192.168.99.1:8848","term":0,"leaderDueMs":17749,"heartbeatDueMs":4500,"state":"FOLLOWER"}, term: 0
+
+2020-09-02 11:32:11,849 INFO leader timeout, start voting,leader: {"ip":"192.168.99.1:8848","voteFor":"192.168.99.1:8848","term":1,"leaderDueMs":17916,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 1
+
+2020-09-02 11:32:29,849 INFO leader timeout, start voting,leader: {"ip":"192.168.99.1:8848","voteFor":"192.168.99.1:8848","term":2,"leaderDueMs":19114,"heartbeatDueMs":5000,"state":"CANDIDATE"}, term: 2
+

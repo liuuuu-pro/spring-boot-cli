@@ -13,6 +13,17 @@
     <artifactId>example-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.liu</groupId>
+            <artifactId>support-polling</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.liu</groupId>
+            <artifactId>common-web</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

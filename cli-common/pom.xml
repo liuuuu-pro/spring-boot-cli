@@ -25,6 +25,9 @@
         <module>common-job</module>
         <module>common-log</module>
         <module>common-lookout</module>
+        <module>common-nacos</module>
+        <module>common-skywalking</module>
+        <module>common-util</module>
     </modules>
 
 </project>

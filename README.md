@@ -6,6 +6,8 @@ Spring Boot开发脚手架
 example-redis: 9091  
 example-swagger: 9092  
 xxl-job-admin: 9000  http://localhost:9000/xxl-job-admin/  
-example-job: 9093
-example-log: 9094
+example-job: 9093  
+example-log: 9094  
+skywalking: 9095 http://localhost:9095/  
+
 

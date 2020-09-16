@@ -16,6 +16,7 @@
 
     <modules>
         <module>support-async-tool</module>
+        <module>support-polling</module>
     </modules>
 
 </project>
